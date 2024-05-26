@@ -5,6 +5,6 @@
     "port": "8888"
   },
   "NotebookApp": {
-    "open_broswers": "False",
+    "open_browser": false
   }
 }
