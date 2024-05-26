@@ -1,3 +1,5 @@
 torch==2.3.0
 transformers=4.41.1
 pip==6.5.4
+jupyter_server==1.24.0
+notebook==6.5.4
