@@ -1,5 +1,10 @@
 {
+  "ServerApp": {
+    "password": "argon2:$argon2id$v=19$m=10240,t=10,p=8$1ZfP0tpuZsjThESgTUFt8g$moNsjQ+uUo2GXzC858lqnF/dpeYdU4+eaaEshbpNY8Y",
+    "ip": "*",
+    "port": "8888"
+  },
   "NotebookApp": {
-    "password": "argon2:$argon2id$v=19$m=10240,t=10,p=8$1ZfP0tpuZsjThESgTUFt8g$moNsjQ+uUo2GXzC858lqnF/dpeYdU4+eaaEshbpNY8Y"
+    "open_broswers": "False",
   }
 }
