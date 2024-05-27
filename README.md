@@ -30,5 +30,14 @@ Host gpu1
 
 `ssh <user-name>@<VM external IP address>`
 
-*On first login, will ask if you want to Nvidia driver. (yes)*
+### First Login
 
+1. Will ask if you want to Nvidia driver. (yes)
+2. `pip uninstall dataproc_jupyter_plugin` Some plug-in GCP included with installation
+
+### Starting up
+
+1. Add Hugging Face token to environment:
+`export HF_TOKEN=<token>`
+2. Start notebook: `jupyter notebook`
+3. Log in with browser <VM external IP>:8888
