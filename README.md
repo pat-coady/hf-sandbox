@@ -35,6 +35,9 @@ Host gpu1
 1. Will ask if you want to Nvidia driver. (yes)
 2. `pip uninstall dataproc_jupyter_plugin` Some plug-in GCP included with installation
 3. `git clone https://github.com/pat-coady/hf-sandbox.git'
+4. cd into `hf-sandbox.git`
+5. `chmod +x setup.sh`
+6. `./setup.sh`
 
 ### Starting up
 
