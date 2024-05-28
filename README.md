@@ -1,6 +1,6 @@
-# hf-sandbox
-Quick setup to run 8-13B LLMs from Hugging Face
+# Hugging Face Sandbox
 
+Quick setup to run 8-13B LLMs from Hugging Face
 
 ## Start GCP VM Instance (about $1/hr)
 
@@ -28,12 +28,13 @@ Host gpu1
 
 ## Log in to VM instance
 
-`ssh <user-name>@<VM external IP address>`
+`ssh gpu1`
 
 ### First Login
 
 1. Will ask if you want to Nvidia driver. (yes)
 2. `pip uninstall dataproc_jupyter_plugin` Some plug-in GCP included with installation
+3. `git clone https://github.com/pat-coady/hf-sandbox.git'
 
 ### Starting up
 
